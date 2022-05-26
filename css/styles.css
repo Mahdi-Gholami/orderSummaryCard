@@ -1,0 +1,100 @@
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    padding: 10% 0;
+}
+
+@media (max-width:700px) {
+    .container {
+        padding: 10% 10%;
+    }
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: red;
+}
+
+.card-body {
+    text-align: center;
+    margin: 5%;
+    background-color: #fff;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+.pricing {
+    background-color: #f8f9fe;
+    padding: 10px, 0;
+    margin-bottom: 5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.pricing-section {
+    vertical-align: middle;
+    margin: auto 0;
+    padding: auto 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.pricing-section h6 {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pricing-section p {
+    padding-bottom: 20px;
+    margin: auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.pricing-section a {
+    text-decoration: none;
+    color: #766cf1;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pricing-btn {
+    background-color: #766cf1;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.pricing-btn:hover {
+    border-color: #766cf1;
+}
